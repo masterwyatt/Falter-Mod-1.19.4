@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "falter",
+	"version": "${version}",
+	"name": "Falter",
+	"description": "This mod expands lategame to a really challenging journey.",
+	"authors": [
+		"masterwyatt"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/falter/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"masterwyatt.falter.Falter"
+		],
+		"client": [
+			"masterwyatt.falter.FalterClient"
+		],
+		"fabric-datagen": [
+			"masterwyatt.falter.FalterDataGenerator"
+		]
+	},
+	"mixins": [
+		"falter.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.17",
+		"minecraft": "~1.19.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
