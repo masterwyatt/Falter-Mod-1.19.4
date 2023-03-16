@@ -10,13 +10,9 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
-    public static final Item DRAGON_PAGE = registerItem("dragon_page",
+    public static final Item RAW_KROHNKITE = registerItem("raw_krohnkite",
             new Item(new FabricItemSettings()));
-    public static final Item WITHER_PAGE = registerItem("wither_page",
-            new Item(new FabricItemSettings()));
-    public static final Item GUARDIAN_PAGE = registerItem("guardian_page",
-            new Item(new FabricItemSettings()));
-    public static final Item WARDEN_PAGE = registerItem("warden_page",
+    public static final Item KROHNKITE = registerItem("krohnkite",
             new Item(new FabricItemSettings()));
 
     private static Item registerItem(String name, Item item) {
@@ -24,10 +20,8 @@ public class ModItems {
     }
 
     public static void addItemstoItemGroup() {
-        addToItemGroup(ModItemGroup.FALTER, DRAGON_PAGE);
-        addToItemGroup(ModItemGroup.FALTER, WITHER_PAGE);
-        addToItemGroup(ModItemGroup.FALTER, GUARDIAN_PAGE);
-        addToItemGroup(ModItemGroup.FALTER, WARDEN_PAGE);
+        addToItemGroup(ModItemGroup.FALTER, RAW_KROHNKITE);
+        addToItemGroup(ModItemGroup.FALTER, KROHNKITE);
     }
 
     private static void addToItemGroup(ItemGroup group, Item item) {

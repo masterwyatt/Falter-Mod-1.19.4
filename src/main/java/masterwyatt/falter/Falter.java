@@ -1,5 +1,6 @@
 package masterwyatt.falter;
 
+import masterwyatt.falter.block.ModBlocks;
 import masterwyatt.falter.item.ModItemGroup;
 import masterwyatt.falter.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -15,5 +16,6 @@ public class Falter implements ModInitializer {
 	public void onInitialize() {
 		ModItemGroup.registerItemGroups();
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

@@ -1,8 +1,12 @@
 {
-  "item.falter.dragon_page": "Dragon Page",
-  "item.falter.wither_page": "Wither Page",
-  "item.falter.guardian_page": "Guardian Page",
-  "item.falter.warden_page": "Warden Page",
+  "item.falter.raw_krohnkite": "Raw Krohnkite",
+  "item.falter.krohnkite": "Krohnkite",
+
+  "block.falter.rutile_block": "Block of Rutile",
+  "block.falter.rutile_ore": "Rutile Ore",
+  "block.falter.annabergite": "Annabergite Ore",
+  "block.falter.annabergite_block": "Block of Annabergite",
+  "block.falter.krohnkite_block": "Block of Krohnkite",
 
   "itemgroup.falter": "Falter"
 }

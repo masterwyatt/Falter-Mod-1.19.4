@@ -11,9 +11,9 @@ public class ModItemGroup {
     public static ItemGroup FALTER;
 
     public static void registerItemGroups() {
-        FALTER = FabricItemGroup.builder(new Identifier(Falter.MOD_ID, "warden_page"))
+        FALTER = FabricItemGroup.builder(new Identifier(Falter.MOD_ID, "krohnkite"))
                 .displayName(Text.translatable("itemgroup.falter"))
-                .icon(() -> new ItemStack(ModItems.WARDEN_PAGE)).build();
+                .icon(() -> new ItemStack(ModItems.KROHNKITE)).build();
     }
 
 
