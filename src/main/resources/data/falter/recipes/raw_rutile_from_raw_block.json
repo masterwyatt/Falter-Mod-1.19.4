@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "falter:raw_rutile_block"
+    }
+  ],
+  "result": {
+    "item": "falter:raw_rutile",
+    "count": 9
+  }
+}

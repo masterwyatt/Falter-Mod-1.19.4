@@ -32,6 +32,18 @@ public class ModBlocks {
 
     public static final Block ANNABERGITE_BLOCK = registerBlock("annabergite_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(35.0f,1300.0f).requiresTool()), ModItemGroup.FALTER);
+
+    public static final Block RAW_KROHNKITE_BLOCK = registerBlock("raw_krohnkite_block",
+            new Block(FabricBlockSettings.of(Material.METAL).strength(30.0f,1200.0f).requiresTool()), ModItemGroup.FALTER);
+
+    public static final Block RAW_RUTILE_BLOCK = registerBlock("raw_rutile_block",
+            new Block(FabricBlockSettings.of(Material.METAL).strength(30.0f,1200.0f).requiresTool()), ModItemGroup.FALTER);
+
+    public static final Block RAW_ANNABERGITE_BLOCK = registerBlock("raw_annabergite_block.json",
+            new Block(FabricBlockSettings.of(Material.METAL).strength(30.0f,1200.0f).requiresTool()), ModItemGroup.FALTER);
+
+
+
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);
         return  Registry.register(Registries.BLOCK, new Identifier(Falter.MOD_ID, name), block);

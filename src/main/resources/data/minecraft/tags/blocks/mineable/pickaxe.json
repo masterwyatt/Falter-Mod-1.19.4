@@ -5,6 +5,9 @@
     "falter:rutile_ore",
     "falter:annabergite_ore",
     "falter:annabergite_block",
-    "falter:krohnkite_block"
+    "falter:krohnkite_block",
+    "falter:raw_krohnkite_block",
+    "falter:raw_rutile_block",
+    "falter:raw_annabergite_block"
   ]
 }

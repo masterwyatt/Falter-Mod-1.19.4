@@ -11,6 +11,9 @@
   "block.falter.annabergite_ore": "Annabergite Ore",
   "block.falter.annabergite_block": "Block of Annabergite",
   "block.falter.krohnkite_block": "Block of Krohnkite",
+  "block.falter.raw_krohnkite_block": "Block of Raw Krohnkite",
+  "block.falter.raw_annabergite_block": "Block of Raw Annabergite",
+  "block.falter.raw_rutile_block": "Block of Raw Rutile",
 
   "itemgroup.falter": "Falter"
 }

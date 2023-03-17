@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "falter:raw_krohnkite_block"
+    }
+  ],
+  "result": {
+    "item": "falter:raw_krohnkite",
+    "count": 9
+  }
+}

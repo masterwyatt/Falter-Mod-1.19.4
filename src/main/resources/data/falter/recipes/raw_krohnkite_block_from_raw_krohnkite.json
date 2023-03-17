@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "falter:raw_krohnkite"
+    }
+  },
+  "result": {
+    "item": "falter:raw_krohnkite_block",
+    "count": 1
+  }
+}

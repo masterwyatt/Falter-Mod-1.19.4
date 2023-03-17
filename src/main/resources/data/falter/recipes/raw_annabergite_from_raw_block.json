@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "falter:raw_annabergite_block"
+    }
+  ],
+  "result": {
+    "item": "falter:raw_annabergite",
+    "count": 9
+  }
+}

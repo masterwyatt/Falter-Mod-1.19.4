@@ -4,6 +4,8 @@
     "falter:rutile_block",
     "falter:rutile_ore",
     "falter:annabergite_ore",
-    "falter:annabergite_block"
+    "falter:annabergite_block",
+    "falter:raw_annabergite_block",
+    "falter:raw_rutile_block"
   ]
 }

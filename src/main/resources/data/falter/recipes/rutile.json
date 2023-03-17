@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#RR",
+    "RR#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:diamond"
+    },
+    "R": {
+      "item": "falter:raw_rutile"
+    }
+  },
+  "result": {
+    "item": "falter:rutile",
+    "count": 1
+  }
+}
