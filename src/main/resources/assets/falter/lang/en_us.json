@@ -1,10 +1,14 @@
 {
   "item.falter.raw_krohnkite": "Raw Krohnkite",
   "item.falter.krohnkite": "Krohnkite",
+  "item.falter.raw_rutile": "Raw Rutile",
+  "item.falter.rutile": "Rutile",
+  "item.falter.raw_annabergite": "Raw Annabergite",
+  "item.falter.annabergite": "Annabergite",
 
   "block.falter.rutile_block": "Block of Rutile",
   "block.falter.rutile_ore": "Rutile Ore",
-  "block.falter.annabergite": "Annabergite Ore",
+  "block.falter.annabergite_ore": "Annabergite Ore",
   "block.falter.annabergite_block": "Block of Annabergite",
   "block.falter.krohnkite_block": "Block of Krohnkite",
 

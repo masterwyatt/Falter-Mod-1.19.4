@@ -14,6 +14,14 @@ public class ModItems {
             new Item(new FabricItemSettings()));
     public static final Item KROHNKITE = registerItem("krohnkite",
             new Item(new FabricItemSettings()));
+    public static final Item RAW_RUTILE = registerItem("raw_rutile",
+            new Item(new FabricItemSettings()));
+    public static final Item RUTILE = registerItem("rutile",
+            new Item(new FabricItemSettings()));
+    public static final Item RAW_ANNABERGITE = registerItem("raw_annabergite",
+            new Item(new FabricItemSettings()));
+    public static final Item ANNABERGITE = registerItem("annabergite",
+            new Item(new FabricItemSettings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(Falter.MOD_ID, name), item);
@@ -22,6 +30,10 @@ public class ModItems {
     public static void addItemstoItemGroup() {
         addToItemGroup(ModItemGroup.FALTER, RAW_KROHNKITE);
         addToItemGroup(ModItemGroup.FALTER, KROHNKITE);
+        addToItemGroup(ModItemGroup.FALTER, RAW_RUTILE);
+        addToItemGroup(ModItemGroup.FALTER, RUTILE);
+        addToItemGroup(ModItemGroup.FALTER, RAW_ANNABERGITE);
+        addToItemGroup(ModItemGroup.FALTER, ANNABERGITE);
     }
 
     private static void addToItemGroup(ItemGroup group, Item item) {

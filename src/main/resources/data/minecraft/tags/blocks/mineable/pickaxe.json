@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "falter:rutile_block",
+    "falter:rutile_ore",
+    "falter:annabergite_ore",
+    "falter:annabergite_block",
+    "falter:krohnkite_block"
+  ]
+}
