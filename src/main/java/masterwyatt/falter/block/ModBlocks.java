@@ -39,7 +39,7 @@ public class ModBlocks {
     public static final Block RAW_RUTILE_BLOCK = registerBlock("raw_rutile_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(30.0f,1200.0f).requiresTool()), ModItemGroup.FALTER);
 
-    public static final Block RAW_ANNABERGITE_BLOCK = registerBlock("raw_annabergite_block.json",
+    public static final Block RAW_ANNABERGITE_BLOCK = registerBlock("raw_annabergite_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(30.0f,1200.0f).requiresTool()), ModItemGroup.FALTER);
 
 
