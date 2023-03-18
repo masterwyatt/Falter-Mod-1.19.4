@@ -10,11 +10,11 @@
       "item": "minecraft:lapis_lazuli"
     },
     "R": {
-      "item": "minecraft:raw_krohnkite"
+      "item": "falter:raw_krohnkite"
     }
   },
   "result": {
-    "item": "minecraft:krohnkite",
+    "item": "falter:krohnkite",
     "count": 1
   }
 }

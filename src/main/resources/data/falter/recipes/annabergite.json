@@ -10,11 +10,11 @@
       "item": "minecraft:emerald"
     },
     "R": {
-      "item": "minecraft:raw_annabergite"
+      "item": "falter:raw_annabergite"
     }
   },
   "result": {
-    "item": "minecraft:annabergite",
+    "item": "falter:annabergite",
     "count": 1
   }
 }
