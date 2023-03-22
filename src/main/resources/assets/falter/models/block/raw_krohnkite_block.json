@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "falter:block/raw_krohnkite_block"
-  }
-}

@@ -43,7 +43,7 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                         FabricRecipeProvider.conditionsFromItem(Items.LAPIS_LAZULI))
                 .criterion(FabricRecipeProvider.hasItem(ModItems.RAW_KROHNKITE),
                         FabricRecipeProvider.conditionsFromItem(ModItems.RAW_KROHNKITE))
-                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.KROHNKITE)));
+                .offerTo(exporter, new Identifier("krohnkite_from_raw"));
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RUTILE)
                 .pattern("EEE")
@@ -55,7 +55,7 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                         FabricRecipeProvider.conditionsFromItem(Items.DIAMOND))
                 .criterion(FabricRecipeProvider.hasItem(ModItems.RAW_RUTILE),
                         FabricRecipeProvider.conditionsFromItem(ModItems.RAW_RUTILE))
-                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.RUTILE)));
+                .offerTo(exporter, new Identifier("rutile_from_raw"));
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ANNABERGITE)
                 .pattern("EEE")
@@ -67,7 +67,7 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                         FabricRecipeProvider.conditionsFromItem(Items.EMERALD))
                 .criterion(FabricRecipeProvider.hasItem(ModItems.RAW_ANNABERGITE),
                         FabricRecipeProvider.conditionsFromItem(ModItems.RAW_ANNABERGITE))
-                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.ANNABERGITE)));
+                .offerTo(exporter, new Identifier("annabergite_from_raw"));
     }
 }
 
