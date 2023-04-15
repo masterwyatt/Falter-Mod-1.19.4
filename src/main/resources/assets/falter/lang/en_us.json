@@ -15,5 +15,13 @@
   "block.falter.raw_annabergite_block": "Block of Raw Annabergite",
   "block.falter.raw_rutile_block": "Block of Raw Rutile",
 
+  "block.falter.krohnkite_log": "Krohnkite Log",
+  "block.falter.krohnkite_wood": "Krohnkite Wood",
+  "block.falter.stripped_krohnkite_log": "Stripped Krohnkite Log",
+  "block.falter.stripped_krohnkite_wood": "Stripped Krohnkite Wood",
+  "block.falter.krohnkite_planks": "Krohnkite Planks",
+  "block.falter.krohnkite_leaves": "Krohnkite Leaves",
+  "block.falter.krohnkite_sapling": "Krohnkite Sapling",
+
   "itemgroup.falter": "Falter"
 }

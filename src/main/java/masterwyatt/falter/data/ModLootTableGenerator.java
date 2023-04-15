@@ -21,5 +21,8 @@ public class ModLootTableGenerator extends FabricBlockLootTableProvider {
 
         addDrop(ModBlocks.ANNABERGITE_ORE, oreDrops(ModBlocks.ANNABERGITE_ORE, ModItems.RAW_ANNABERGITE));
         addDrop(ModBlocks.RUTILE_ORE, oreDrops(ModBlocks.RUTILE_ORE, ModItems.RAW_RUTILE));
+
+
     }
+
 }

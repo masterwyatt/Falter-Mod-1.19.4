@@ -2,6 +2,7 @@ package masterwyatt.falter.block;
 
 import masterwyatt.falter.Falter;
 import masterwyatt.falter.item.ModItemGroup;
+import masterwyatt.falter.world.tree.KrohnkiteSaplingGenerator;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
@@ -18,31 +19,39 @@ public class ModBlocks {
 
     public static final Block KROHNKITE_BLOCK = registerBlock("krohnkite_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(30.0f,1200.0f).requiresTool()), ModItemGroup.FALTER);
-
     public static final Block RUTILE_BLOCK = registerBlock("rutile_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(40.0f,1500.0f).requiresTool()), ModItemGroup.FALTER);
-
     public static final Block RUTILE_ORE = registerBlock("rutile_ore",
             new ExperienceDroppingBlock(FabricBlockSettings.of(Material.STONE).strength(40.0f,1500.0f).requiresTool(),
                     UniformIntProvider.create(10, 20)), ModItemGroup.FALTER);
-
     public static final Block ANNABERGITE_ORE = registerBlock("annabergite_ore",
             new ExperienceDroppingBlock(FabricBlockSettings.of(Material.STONE).strength(35.0f, 1300.0f).requiresTool(),
                     UniformIntProvider.create(10, 20)), ModItemGroup.FALTER);
-
     public static final Block ANNABERGITE_BLOCK = registerBlock("annabergite_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(35.0f,1300.0f).requiresTool()), ModItemGroup.FALTER);
-
     public static final Block RAW_KROHNKITE_BLOCK = registerBlock("raw_krohnkite_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(30.0f,1200.0f).requiresTool()), ModItemGroup.FALTER);
-
     public static final Block RAW_RUTILE_BLOCK = registerBlock("raw_rutile_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(30.0f,1200.0f).requiresTool()), ModItemGroup.FALTER);
-
     public static final Block RAW_ANNABERGITE_BLOCK = registerBlock("raw_annabergite_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(30.0f,1200.0f).requiresTool()), ModItemGroup.FALTER);
 
+    public static final Block KROHNKITE_LOG = registerBlock("krohnkite_log",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(30.0f).requiresTool()), ModItemGroup.FALTER);
+    public static final Block KROHNKITE_WOOD = registerBlock("krohnkite_wood",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_WOOD).strength(30.0f).requiresTool()), ModItemGroup.FALTER);
+    public static final Block STRIPPED_KROHNKITE_LOG = registerBlock("stripped_krohnkite_log",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_OAK_LOG).strength(30.0f).requiresTool()), ModItemGroup.FALTER);
+    public static final Block STRIPPED_KROHNKITE_WOOD = registerBlock("stripped_krohnkite_wood",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_OAK_WOOD).strength(30.0f).requiresTool()), ModItemGroup.FALTER);
 
+    public static final Block KROHNKITE_PLANKS = registerBlock("krohnkite_planks",
+            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(30.0f).requiresTool()), ModItemGroup.FALTER);
+    public static final Block KROHNKITE_LEAVES = registerBlock("krohnkite_leaves",
+            new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).strength(30.0f).requiresTool()), ModItemGroup.FALTER);
+
+    public static final Block KROHNKITE_SAPLING = registerBlock("krohnkite_sapling",
+            new SaplingBlock(new KrohnkiteSaplingGenerator(), FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).strength(30.0f).requiresTool()), ModItemGroup.FALTER);
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);

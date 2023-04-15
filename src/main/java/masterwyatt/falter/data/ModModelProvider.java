@@ -23,6 +23,14 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.RAW_RUTILE_BLOCK);
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.RUTILE_BLOCK);
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.RUTILE_ORE);
+
+        blockStateModelGenerator.registerLog(ModBlocks.KROHNKITE_LOG).log(ModBlocks.KROHNKITE_LOG).wood(ModBlocks.KROHNKITE_WOOD);
+        blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_KROHNKITE_LOG).log(ModBlocks.STRIPPED_KROHNKITE_LOG).wood(ModBlocks.STRIPPED_KROHNKITE_WOOD);
+
+        blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.KROHNKITE_PLANKS);
+        blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.KROHNKITE_LEAVES);
+
+        blockStateModelGenerator.registerTintableCrossBlockState(ModBlocks.KROHNKITE_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
     }
 
     @Override
